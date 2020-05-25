@@ -1,0 +1,31 @@
+.container {
+    margin: 0 auto;
+    width: 80%;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container div:nth-child(-n+3){
+    text-align: center;
+}
+.white_div{
+    color: white;
+}
+.blue_div{
+    color: blue;
+}
+.red_div{
+    color: red;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+form input{
+    margin-bottom: 10px;
+}
+.phoneNumber{
+    display: flex;
+}
